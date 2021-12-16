@@ -5,9 +5,13 @@
     font-family: Nunito Sans;
 }
 
+/* ============================================ Applications ============================================ */
+/* ============================================ Applications ============================================ */
+/* ============================================ Applications ============================================ */
 .Applications {
     background-color: #2D3845;
     height: 861px;
+    overflow: hidden;
 }
 
 .Applications .applications-content {
@@ -162,3 +166,79 @@
 /* ============================================================= Applications END =============================================================*/
 /* ============================================================= Applications END =============================================================*/
 /* ============================================================= Applications END =============================================================*/
+
+
+/*============================================ Resuls ============================================*/
+/*============================================ Resuls ============================================*/
+/*============================================ Resuls ============================================*/
+
+.Resuls .resuls-text .big-text-resuls {
+    margin-top: 200px;
+    width: 1083px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120%;
+    color: #2D3845;
+}
+
+.Resuls .resuls-text .big-text-resuls span {
+    color: #3088A5;
+}
+
+.big-content-resuls {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resuls-text-mini p {
+    width: 490px;
+    margin-right: 150px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D3845;
+}
+
+.resuls-text-mini p:first-child {
+    margin-bottom: 100px;
+}
+
+.resuls-text-mini p span {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #29779D;
+}
+
+.big-content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: transparent;
+}
+
+.big-content-buttons {
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    background: #F4F8FA;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    padding-left: 37px;
+    margin-right: 20px;
+    border: none;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.big-content-buttons span {
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+/*============================================ Resuls END ============================================*/
+/*============================================ Resuls END ============================================*/
+/*============================================ Resuls END ============================================*/
