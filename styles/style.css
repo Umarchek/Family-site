@@ -221,11 +221,11 @@
 
 .big-content-buttons {
     border-radius: 12px;
+    padding-top: 30px;
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
-    background: #F4F8FA;
-    padding-top: 37px;
+    background: #1B558D;
     padding-bottom: 37px;
     padding-left: 37px;
     margin-right: 20px;
@@ -237,6 +237,13 @@
 .big-content-buttons span {
     padding-right: 60px;
     padding-left: 20px;
+}
+
+.big-content-buttons span img {
+    padding: 14px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding-top: 17px;
 }
 
 /*============================================ Resuls END ============================================*/
