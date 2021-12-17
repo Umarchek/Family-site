@@ -1,0 +1,199 @@
+@media screen and (max-width:400px){
+    .Applications {
+        background-color: #2D3845;
+        height: 1000px;
+        overflow: hidden;
+    }
+    
+    .Applications .applications-content {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-content: space-between;
+    }
+    
+    .Applications .applications-content .application-left-content {
+        width: 400px; 
+    }
+
+    .application-mini-right-content{
+        margin-top: 50px;
+    }
+
+    .applications-left-text{
+        font-size: 2.5em !important;
+    }
+    .Applications .applications-content .application-left-content {
+        width: 400px;
+    }
+    .Applications .applications-content .application-left-content .application-left-text .applications-left-text {
+        width: 400px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 120px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        padding-top: 160px;
+    }
+    .Applications .applications-content .application-left-content .application-left-description .applications-left-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-bottom: 60px;
+        width: 300px;
+    }
+    .application-mini-all-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .Applications .applications-content .application-left-content .application-mini-all-content .application-mini-right-desciption .applications-mini-right-description {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 135%;
+        color: #8B95A0;
+        width: 300px;
+    }
+    .Applications .applications-content .application-left-content .application-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 65px;
+    }
+    .applications-content{
+        position: relative;
+    }
+    .Applications .applications-content .application-right-content {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .Applications .applications-content .application-right-content img{
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        top: 50px;
+        left: 200px;
+        opacity: 0.5;
+    }
+    .Applications .applications-content .application-left-content .application-mini-all-content .application-mini-right-content .application-mini-right-time .applications-mini-right-time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 135%;
+        color: #FFFFFF;
+        border: 2px solid #3C4A5A;
+        border-radius: 6px;
+        width: 100px;
+        height: 39px;
+    }
+    .Applications .applications-content .application-left-content .application-mini-all-content .application-mini-left-content .application-mini-left-inputs .application-mini-left-inputs-left-content .application-left-input .applications-left-input {
+        width: 300px;
+        height: 64px;
+        border-radius: 12px;
+        padding: 18px 30px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        background-color: #3C4A5A;
+        border: 2px solid #3C4A5A;
+        color: #8B95A0;
+    }
+    .Applications .applications-content .application-left-content .application-footer .application-description .applications-description {
+        margin-right: 150px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 135%;
+        color: #8B95A0;
+        width: 300px;
+        text-align: center;
+    }
+    .Applications .applications-content .application-left-content .application-footer .application-button .applications-button {
+        display: flex;
+        background: transparent;
+        border: none;
+        font-weight: bold;
+        font-size: 22px;
+        cursor: pointer;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-right: 100px;
+    }
+    
+    /* ============================================================= Applications END =============================================================*/
+    /* ============================================================= Applications END =============================================================*/
+    /* ============================================================= Applications END =============================================================*/
+    /*============================================ Resuls ============================================*/
+    /*============================================ Resuls ============================================*/
+    /*============================================ Resuls ============================================*/
+
+    .Resuls .resuls-text .big-text-resuls {
+        margin-top: 100px;
+        width: 300px;
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 120%;
+        color: #2D3845;
+    }
+    .resuls-text-mini p {
+        width: 300px;
+        /* margin-right: 150px; */
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 130%;
+        color: #2D3845;
+    }
+    .resuls-text-mini p span {
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 130%;
+        color: #29779D;
+    }
+     
+    .resuls-text-mini p:first-child {
+        margin-bottom: 50px;
+    }
+    .big-content-resuls {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .resuls-right-content img{
+        margin-top: 50px;
+        height: 250px;
+    }
+    .big-content-buttons {
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        background: #F4F8FA;
+        color: #246B97;
+        border: none;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
+    
+    .big-content-buttons span {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    
+    .big-content-buttons span img {
+        padding: 14px;
+    }
+}
