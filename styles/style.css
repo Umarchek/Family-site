@@ -240,3 +240,163 @@
     /*============================================ Resuls END ============================================*/
     /*============================================ Resuls END ============================================*/
     /*============================================ Resuls END ============================================*/
+
+    /*============================================ Boxes ============================================*/
+    /*============================================ Boxes ============================================*/
+    .boxes .boxes-text h1{
+        font-size: 5.5em;
+        font-weight: 700;
+    }
+    .boxes .boxes-texts{
+        margin-top: 100px;
+    }
+    .boxes .boxes-texts p{
+        font-size: 2.5em;
+        margin-left: 200px;
+    }
+    .boxes .boxes-texts .boxes-position{
+        position: absolute;
+        right: 300px;
+        top: 60px;
+    }
+    .boxes .boxes-texts .boxes-position h1{
+        font-size: 20em;
+        font-weight: 700;
+        color: #29779D;
+    }
+    .boxes .boxes-texts .boxes-position span{
+        font-size: 5em;
+        font-weight: 600;
+        color: #29779D;
+    }
+    .boxes .boxes-percent{
+        margin-top: 100px;
+    }
+    .boxes .boxes-percent .percent-start{
+        height: 170px;
+        width: 800px;
+        border-radius: 20px 0 0 20px;
+        background: linear-gradient(to right,#7eabff,#246B97);
+        position: relative;
+    }
+    .percent-start::before{
+        content: "";
+        background: rgb(209, 255, 251);
+        /* background: black; */
+        width: 5px;
+        height: 200px;
+        position: absolute;
+        bottom: -15px;
+        left: 200px;
+    }
+    .boxes .boxes-percent .percent-end{
+        height: 170px;
+        width: 800px;
+        border-radius:0 20px  20px 0;
+        background: rgb(208, 232, 255);
+    }
+    .boxes .boxes-percent .btn{
+        background: #F4F8FA;
+        padding: 37px 60px;
+        font-size: 1.5em;
+        border-radius: 15px;
+        margin: 100px auto;
+        color: #246B97;
+    }
+    .boxes .boxes-percent .btn span{
+        padding: 14px;
+    }
+    .boxes .boxes-panel{
+        border-radius: 20px;
+        height: 600px;
+        width: 1600px;
+        background: #F4F8FA;
+        margin: 100px auto;
+    }
+    .h1-padding h1{
+        height: 80px;
+        width: 80px;
+        background: linear-gradient(to right,#6185c9,#115077);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .boxes .boxes-panel h3{
+        color: #8B95A0;
+    }
+    .boxes .boxes-panel .imgg{
+        padding: 20px 20px;
+        border-radius: 20px;
+        background: white;
+    }
+    .boxes .boxes-panel .imgg img{
+        transform: rotate(45deg);
+        height: 40px;
+    }
+    /*============================================ Boxes End ============================================*/
+    /*============================================ Boxes End ============================================*/
+    /*============================================ content ============================================*/
+    /*============================================ content ============================================*/
+
+    .content .content-text h1{
+        font-size: 7em;
+        font-weight: 600;
+        margin-left: 200px;
+    }
+    .content .content-text h1:nth-child(2){
+        margin-left: 100px;
+    }
+    .content .content-text h1:nth-child(3){
+        color: #29779D;
+    }
+    .content .content-img-item div:first-child{
+        margin-top: 100px;
+        border-radius: 15px;
+    }
+    .content .content-img-item div:first-child .img1{
+        height: 300px;
+        position: relative;
+        border-radius: 15px;
+    }
+    .content .content-img-item div:first-child .img3{
+        height: 300px;
+        border-radius: 15px;
+    }
+    .content .content-img-item div:first-child .img2{
+        height: 500px;
+        margin-bottom: 100px;
+    }
+    .content .content-img-item div .img4{
+        height: 300px;
+        border-radius: 15px;
+    }
+    .content .content-img-item .content-text h2:first-child{
+        position: absolute;
+        top: -850px;
+        color: white;
+        left: 140px;
+        font-size: 2.8em;
+        font-weight: 700;
+    }
+    .content .content-img-item .content-text h2:nth-child(2){
+        position: absolute;
+        top: -850px;
+        color: white;
+        right: 140px;
+        font-size: 2.8em;
+        font-weight: 700;
+    }
+    .content .content-img-item .content-text h2:nth-child(3){
+        position: absolute;
+        top: -250px;
+        color: white;
+        left: 800px;
+        font-size: 2.8em;
+        font-weight: 700;
+        
+    }
+    .content .content-img-item .content-text{
+        margin-bottom: 100px;
+    }
