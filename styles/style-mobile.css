@@ -1,7 +1,7 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:767px) and (min-width:320px){
     .Applications {
         background-color: #2D3845;
-        height: 1000px;
+        height: 1200px;
         overflow: hidden;
     }
     
@@ -21,7 +21,7 @@
     }
 
     .applications-left-text{
-        font-size: 2.5em !important;
+        font-size: 2.5em ;
     }
     .Applications .applications-content .application-left-content {
         width: 400px;
@@ -107,7 +107,8 @@
         color: #8B95A0;
     }
     .Applications .applications-content .application-left-content .application-footer .application-description .applications-description {
-        margin-right: 150px;
+        /* margin-right: 150px; */
+        margin-left: -130px;
         margin-top: 10px;
         font-weight: 600;
         font-size: 12px;
@@ -125,7 +126,7 @@
         cursor: pointer;
         line-height: 150%;
         color: #FFFFFF;
-        margin-right: 100px;
+        margin-left: -100px;
     }
     
     /* ============================================================= Applications END =============================================================*/
@@ -166,10 +167,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
     }
     .resuls-right-content img{
         margin-top: 50px;
-        height: 250px;
+        height: 200px;
+        width: 300px;
     }
     .big-content-buttons {
         border-radius: 12px;
@@ -195,5 +198,126 @@
     
     .big-content-buttons span img {
         padding: 14px;
+    }
+}
+
+/* -------------------------loptop---------------------------- */
+@media screen and (max-width:1366px) and (min-width:990px){    
+    .Applications .applications-content .application-left-content {
+        width: 750px; 
+    }
+    .Applications .applications-content .application-left-content .application-left-text .applications-left-text {
+        width: 750px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 120px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        padding-top: 160px;
+    }
+    .Applications .applications-content .application-left-content .application-left-description .applications-left-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-bottom: 60px;
+    }
+   
+    .application-right-content img{
+        height: 700px; 
+        position: absolute;
+        left: 500px;
+        opacity: 0.5;
+    }
+    .Applications .applications-content {
+        position: relative;
+    }
+    .Applications .applications-content .application-right-content{
+        margin-left: 0;
+        margin-top: 170px;
+    }
+
+    -----------------------resul------------------------------------------
+    .resuls-right-content{
+        position: relative;
+    }
+    .resuls-right-content img{
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        right: 10px;
+        top: 1300px;
+    }
+    .Resuls .resuls-text .big-text-resuls {
+        margin-top: 200px;
+        width: 900px;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 100%;
+        color: #2D3845;
+        margin-left: -100px;
+    }
+    .resuls-text-mini p {
+        width: 345px;
+        margin-right: 100px;
+        margin-left: -100px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 100%;
+        color: #2D3845;
+        
+    }    
+
+
+}
+@media screen and (max-width:989px) and (min-width:768px){
+    .container{
+        width: 720px;
+    }
+    .application-right-content{
+        display: none;
+    }
+    .Resuls .resuls-text .big-text-resuls {
+        margin-top: 100px;
+        width: 720px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 100%;
+        color: #2D3845;
+        position: relative;
+        /* margin-left: -100px; */
+    }
+    .resuls-text-mini p {
+        width: 230px;
+        margin-right: 100px;
+        /* margin-left: -100px; */
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 100%;
+        color: #2D3845;
+        
+    } 
+    .resuls-text-mini p span {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 130%;
+        color: #29779D;
+    }
+    .resuls-right-content{
+        width: 400px;
+        height: 500px;
+        overflow: hidden;
+        position: absolute;
+        top: 1200px;
+        right: 0;
+    }
+    .resuls-right-content img{
+        height: 500px;
+        width: 700px;
+    }
+    .big-content-button{
+        margin-top: 150px;
     }
 }
