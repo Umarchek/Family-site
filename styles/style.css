@@ -487,61 +487,101 @@ header nav .dropdown-item-ul ul li {
     .ibi .section-header-text .left-text-section {
         margin-right: 204px;
     }
+
     header nav .header-left .dropdown .dropdown-item .dropdown-item-a {
         font-weight: 600;
         font-size: 18px;
         line-height: 150%;
         color: #2D3845;
     }
+
     .ibi {
         margin-left: 0;
     }
+
     header nav .header-right-ul ul {
         display: none;
     }
+
     header {
         display: flex;
         justify-content: space-between;
     }
+
     header nav .header-right-ul .header-right-bars button {
         width: 0;
     }
+
     .ibi .section-header-text .left-text-section .left-info-section {
         font-size: 18px;
         width: 234px;
     }
+
     .ibi .section-header-text .left-text-section .left-number-section {
         font-size: 36px;
         width: 276px;
     }
+
     .ibi .section-header-text .right-text-section .right-mail-section {
         font-size: 18px;
     }
+
     .ibi .section-header-text .right-text-section .right-emmail-section {
         font-size: 36px;
         width: 324px;
     }
+
     .ibi .section-adress-text .section-adress-info .section-adress-infoo {
         font-size: 18px;
     }
+
     .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
         font-size: 36px;
     }
+
     .ibi .application .application-info .application-text {
         font-size: 65px;
     }
+
     .ibi .application .application-info .application-paragraf {
         font-size: 23px;
     }
+
     .ibi .application .application-social ul li .application-phone {
         font-size: 18px;
     }
+
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {}
 }
-.map{
+
+.map {
     height: 200px !important;
 }
-.ChangedMap{
+
+.ChangedMap {
     height: 600px !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.section-big-maps-logo{
+    background: transparent;
+    position: absolute;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    width: 295px;
+    height: 84px;
+    border: none;
+    cursor: pointer;
+    top: 35%;
+    left: 35%;
 }
