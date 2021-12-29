@@ -539,3 +539,9 @@ header nav .dropdown-item-ul ul li {
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {}
 }
+.map{
+    height: 200px !important;
+}
+.ChangedMap{
+    height: 600px !important;
+}
